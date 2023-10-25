@@ -19,5 +19,10 @@ int main()
     for(int i = 0; i<=number;i++){
         printf("%d\n",i);
     }
+    char car[] ="Maruti";
+    int i ;
+    for(i=0;i<=6;i++){
+        printf("%c \n",car[i]);
+    }
     return 0;
 }
