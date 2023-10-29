@@ -2,28 +2,28 @@
 int main()
 {
     int number;
-    printf("Enter the number!! \n");
+    printf("Enter a number!! \n");
     scanf("%d", &number);
 
     if (number >= 1)
     {
-        printf("THIS IS NATURAL NUMBER !! \n");
+        printf("IT IS A NATURAL NUMBER !! \n");
         if (number % 2 == 0)
         {
-            printf("THIS IS EVEN NUMBER!! \n");
+            printf("IT IS A EVEN NUMBER!! \n");
         }
         else if (number / 1 && number / number)
         {
-            printf("THIS IS PRIME NUMBER!! \n");
+            printf("IT IS A PRIME NUMBER!! \n");
             if (number % 2 != 0)
             {
-                printf("THIS IS ODD NUMBER!!");
+                printf("IT IS A ODD NUMBER!!");
             }
         }
     }
     else if (number <= 0)
     {
-        printf("THIS IS NOT NATURAL NUMBER!! \n");
+        printf("IT IS NOT NATURAL NUMBER!! \n");
     }
 
     return 0;
