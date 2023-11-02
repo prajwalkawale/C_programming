@@ -26,5 +26,19 @@ int main()
         }
         printf("\n");
     }
+
+    // Printing number in row wise left half pyramid
+
+    int num02;
+    printf("Enter a number for print the number pyramid::");
+    scanf("%d", &num02);
+    for (int i = 1; i <= num02; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            printf("%d", i);
+        }
+        printf("\n");
+    }
     return 0;
 }
