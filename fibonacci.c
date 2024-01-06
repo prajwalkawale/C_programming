@@ -1,4 +1,5 @@
-// print Nth term of fobonacci
+// print Nth term of fibonacci
+// write the Nth term of fibonacci
 #include <stdio.h>
 int fibonacci(int n);
 int main()
