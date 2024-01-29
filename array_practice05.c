@@ -25,17 +25,18 @@ int main()
     {
         printf("%d \t", arr[i]);
     }
-
+    printf("\n");
     // Add element at any position of an array :
     int pos, ele;
-    printf("\n Enter the position of an array:\n");
-    scanf("%d \n", &pos);
+    printf(" Enter the position of an array:\n");
+    scanf("%d",&pos);
     printf("Enter the element at that position : ");
-    scanf("%d \n", &ele);
+    scanf("%d",&ele);
     for (int i = size; i > pos; i--)
     {
         arr[i] = arr[i - 1];
     }
+
     size++;
     arr[pos] = ele;
     for (int i = 0; i < size; i++)
