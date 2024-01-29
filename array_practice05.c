@@ -28,6 +28,9 @@ int main()
     printf("\n");
     // Add element at any position of an array :
     int pos, ele;
+    if(pos<0 || pos>arr[size]){
+        printf("Ivalid position you have entered: ");
+    }else{
     printf(" Enter the position of an array:\n");
     scanf("%d",&pos);
     printf("Enter the element at that position : ");
@@ -42,6 +45,7 @@ int main()
     for (int i = 0; i < size; i++)
     {
         printf("%d \t", arr[i]);
+    }
     }
     return 0;
 }
