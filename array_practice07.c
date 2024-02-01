@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&size);
     printf("Enter an element in the array :\n");
     for(int i=0;i<size;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
 
     printf("You have entered these elements : \n");
@@ -19,7 +19,7 @@ int main(){
     printf("Enter the position to delete the element of an array : \n");
     scanf("%d",&pos);
 for(int i=pos-1;i<size-1;i++){
-    arr[i]=arr[i+1];
+    arr[i]=arr[i-1];
 }
 printf("After the deletion of the element the remaining elements are : \n");
 for(int i=0;i<size;i++){
